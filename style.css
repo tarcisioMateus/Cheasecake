@@ -23,17 +23,33 @@ body, button {
 body {
   background-color: var(--color_2nd);
 }
+main {
+  max-width: 32rem;
+  padding: 5.2rem 3.6rem;
+  display: grid;
+  gap: 3.2rem;
+  margin-inline: auto;
+  box-sizing: content-box;
+}
 
+img{
+  width: 100%;
+  margin-block: 3.2rem;
+}
 h1, h2, h3 {
   font-weight: 700;
 }
-
 h1, h2 {
   font-size: 2.8rem;
 }
 
 h3 {
   font-size: 1.4rem;
+  margin-top: 3.2rem;
+}
+
+ul, ol {
+  padding-left: 2.4rem;
 }
 
 button {
@@ -43,5 +59,9 @@ button {
   color: var(--color_2nd);
 
   background-color: var(--color_main);
+  margin-top: 3.2rem;
+  padding: .8rem 1.2rem;
+  border: none;
+  border-radius: .6rem;
 }
 

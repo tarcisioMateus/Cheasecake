@@ -9,11 +9,19 @@
 
 :root {
   font-size: 62.5%;
+
+  --color_main: #A54328;
+  --color_2nd: #FFFFFF;
 }
 
 body, button {
   font-family: 'Source Serif 4', serif;
   font-size: 1.4rem;
+  color: var(--color_main);
+}
+
+body {
+  background-color: var(--color_2nd);
 }
 
 h1, h2, h3 {
@@ -32,5 +40,8 @@ button {
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.7rem;
+  color: var(--color_2nd);
+
+  background-color: var(--color_main);
 }
 
